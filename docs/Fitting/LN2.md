@@ -2,7 +2,7 @@
 sidebar_position: 2
 ---
 
-# Translate your site
+# 液氮冷阱 LN2
 
 Let's translate `docs/intro.md` to French.
 

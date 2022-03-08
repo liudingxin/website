@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  url: 'https://your-docusaurus-test-site.com',
+  title: 'TamaRive玉川',
+  tagline: '科学仪器',
+  url: 'https://tamarive.com',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -31,6 +31,8 @@ const config = {
           // Please change this to your repo.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          
+          blogSidebarCount: 10,
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -43,7 +45,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'My Site',
+        title: 'TamaRive',
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -53,60 +55,63 @@ const config = {
             type: 'doc',
             docId: 'intro',
             position: 'left',
-            label: 'Tutorial',
+            label: '产品目录',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
-          {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
-          },
+          {to: '/blog', label: '技术社区', position: 'left'},
         ],
       },
       footer: {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '产品',
             items: [
               {
-                label: 'Tutorial',
+                label: '检漏仪喷枪',
+                to: '/docs/intro',
+              },
+              {
+                label: '液氮冷阱',
+                to: '/docs/intro',
+              },
+              {
+                label: '更多...',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '社区',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: '技术社区',
+                href: '/blog',
               },
               {
-                label: 'Discord',
+                label: '公众号',
                 href: 'https://discordapp.com/invite/docusaurus',
               },
               {
-                label: 'Twitter',
+                label: '抖音',
                 href: 'https://twitter.com/docusaurus',
               },
             ],
           },
           {
-            title: 'More',
+            title: '其他',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: '公众号',
+                href: 'https://discordapp.com/invite/docusaurus',
               },
               {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                label: '抖音',
+                href: 'https://twitter.com/docusaurus',
               },
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} TamaRive, Inc. Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,

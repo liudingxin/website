@@ -1,17 +1,11 @@
-endi:
-  name: Endilie Yacop Sucipto
-  title: Maintainer of Docusaurus
-  url: https://github.com/endiliey
-  image_url: https://github.com/endiliey.png
+ldx:
+  name: Dingxin Liu
+  title: CEO
+  url: https://github.com/liudingxin
+  image_url: http://www.tamarive.com/static/img/ldx.jpg
 
-yangshun:
-  name: Yangshun Tay
-  title: Front End Engineer @ Facebook
+yqy:
+  name: Qingyun Yun
+  title: Engineer
   url: https://github.com/yangshun
-  image_url: https://github.com/yangshun.png
-
-slorber:
-  name: Sébastien Lorber
-  title: Docusaurus maintainer
-  url: https://sebastienlorber.com
-  image_url: https://github.com/slorber.png
+  image_url: http://www.tamarive.com/static/img/yqy.jpg

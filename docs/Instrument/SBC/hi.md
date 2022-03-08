@@ -1,8 +1,9 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
+title: 产品说明书
 ---
 
-# 产品目录
+# 产品说明书
 
 ### -- 模块化真空腔体 --
 [方型: Cube100 (不锈钢) | Cube200 (不锈钢 / 铝) | Cube400 (不锈钢)](https://nodejs.org/en/download/)
