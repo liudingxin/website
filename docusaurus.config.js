@@ -102,7 +102,7 @@ const config = {
             items: [
               {
                 label: '公众号',
-                href: 'https://www.tamarive.com/img/qrcode.jpg',
+                href: 'https://www.tamarive.com/img/tiktok.jpg',
               },
               {
                 label: '抖音',
