@@ -106,7 +106,7 @@ const config = {
               },
               {
                 label: '抖音',
-                href: '/img/ldx.jpg',
+                href: 'http://www.tamarive.com/img/ldx.jpg',
               },
             ],
           },
