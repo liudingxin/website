@@ -84,16 +84,16 @@ const config = {
             title: '社区',
             items: [
               {
-                label: '技术社区',
-                href: '/blog',
+                label: '一百个真空专业词汇',
+                href: '/blog/vacuum',
               },
               {
-                label: '公众号',
-                href: 'https://discordapp.com/invite/docusaurus',
+                label: '和小朋友一起建立科学博物馆',
+                href: '/blog/museum',
               },
               {
-                label: '抖音',
-                href: 'https://twitter.com/docusaurus',
+                label: '更多...',
+                to: '/blog',
               },
             ],
           },
@@ -102,11 +102,11 @@ const config = {
             items: [
               {
                 label: '公众号',
-                href: 'https://img.alicdn.com/imgextra/i3/14872765/O1CN014bskOU1WIPqSYMXN1_!!14872765.jpg',
+                href: 'https://www.tamarive.com/img/qrcode.jpg',
               },
               {
                 label: '抖音',
-                href: 'https://www.tamarive.com/img/ldx.jpg',
+                href: 'https://www.tamarive.com/img/qrcode.jpg',
               },
             ],
           },
