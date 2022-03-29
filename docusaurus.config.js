@@ -102,11 +102,11 @@ const config = {
             items: [
               {
                 label: '公众号',
-                href: 'https://discordapp.com/invite/docusaurus',
+                href: 'https://img.alicdn.com/imgextra/i3/14872765/O1CN014bskOU1WIPqSYMXN1_!!14872765.jpg',
               },
               {
                 label: '抖音',
-                href: 'https://twitter.com/docusaurus',
+                href: '/img/ldx.jpg',
               },
             ],
           },
