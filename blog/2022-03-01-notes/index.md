@@ -1,7 +1,8 @@
 ---
 slug: notes
 title: Notes
-authors: [ldx]
+authors: ldx
+tags: [notes]
 ---
 
 ## Blog

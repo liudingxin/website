@@ -23,15 +23,12 @@ const config = {
       ({
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
-          // Please change this to your repo.
-          editUrl: 'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+          editUrl: '#',
         },
         blog: {
           showReadingTime: true,
-          // Please change this to your repo.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-          
+            '#',
           blogSidebarCount: 10,
         },
         theme: {
@@ -107,6 +104,14 @@ const config = {
               {
                 label: '抖音',
                 href: 'https://www.tamarive.com/img/tiktok.jpg',
+              },
+              {
+                label: 'Twitter',
+                href: 'https://www.twitter.com/tamariveworks',
+              },
+              {
+                label: 'Ins',
+                href: 'https://www.tamarive.com/tamariveworks',
               },
             ],
           },
