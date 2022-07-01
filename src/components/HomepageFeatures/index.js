@@ -26,20 +26,22 @@ const FeatureList = [
   {
     title: '氟油检漏仪',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
+    link: '@site/blog/vacuum',
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        Extend or customize your website layout by reusing React. www.google.com  extended while reusing the same header and footer.
       </>
     ),
   },
 ];
 
-function Feature({Svg, title, description}) {
+function Feature({Svg, title, description, link}) {
   return (
     <div className={clsx('col col--4')}>
       <div className="text--center">
+      <a href={link}>
         <Svg className={styles.featureSvg} role="img" />
+      </a>
       </div>
       <div className="text--center padding-horiz--md">
         <h3>{title}</h3>

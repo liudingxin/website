@@ -54,7 +54,7 @@ const config = {
             position: 'left',
             label: '产品目录',
           },
-          {to: '/blog', label: '技术社区', position: 'left'},
+          {to: '/blog', label: '项目展示', position: 'left'},
         ],
       },
       footer: {
@@ -78,7 +78,7 @@ const config = {
             ],
           },
           {
-            title: '社区',
+            title: '项目',
             items: [
               {
                 label: '一百个真空专业词汇',
@@ -108,10 +108,6 @@ const config = {
               {
                 label: 'Twitter',
                 href: 'https://www.twitter.com/tamariveworks',
-              },
-              {
-                label: 'Ins',
-                href: 'https://www.tamarive.com/tamariveworks',
               },
             ],
           },
